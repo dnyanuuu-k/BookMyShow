@@ -1,0 +1,43 @@
+.imageSlider {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.middleImg {
+    width: 72%;
+    margin: 10px 0;
+}
+
+.lastImg,
+.firstImg {
+    width: 200px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    position: absolute;
+    top: 125px;
+    background: rgba(0, 0, 0, 0.632);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn_icon {
+    font-size: 24px;
+    /* color: red;
+    background-color: white; */
+}
+
+.btnNext {
+    right: 0;
+}

@@ -1,0 +1,92 @@
+.navbar {
+    width: 100%;
+
+}
+
+.top_navbar {
+    width: 80%;
+    padding: 0 10%;
+    background: #333545;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .top_navbar img {
+    color: white;
+    background-color: white;
+} */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_bar {
+    padding: 0 10px;
+}
+
+.search_bar span {
+    position: relative;
+    left: 35px;
+}
+
+.search_bar input {
+    padding: 8px 20px;
+    width: 500px;
+    margin: 15px 0;
+    border-radius: 5px;
+    padding-left: 50px;
+    border: none;
+}
+
+.cityAndMenu div {
+    color: white;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.cityAndMenu div:first-child {
+    color: gray;
+
+}
+
+.cityAndMenu div:last-child {
+    font-size: 25px;
+}
+
+.cityAndMenu button {
+    color: white;
+    background: #f84464;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.bottom_navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #222539;
+    padding: 10px 10%;
+}
+
+.bottom_navbar div:first-child a {
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.bottom_navbar div:last-child a {
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.bottom_navbar a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.bottom_navbar img {
+    width: 250px;
+}
